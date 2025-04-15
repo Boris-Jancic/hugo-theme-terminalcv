@@ -1,15 +1,15 @@
 ## Example Config file
 baseURL: "https://example.com"
 theme: "terminalcv"
-title: "terminalcv"
+title: "Boris Jancic Terminal CV"
 
 params:
-  version: "2.0.0"
-  description: "My terminal cv"
+  version: "25.08.2000"
+  description: "Boris Jancic Terminal CV"
   prompt:
     core:
-      text: "user@terminalCV"
-      color: "pink"
+      text: "boris@terminalCV"
+      color: "green"
       before: "["
       beforeColor: "red"
       after: '\]'
@@ -22,7 +22,7 @@ params:
       before: "["
       beforeColor: "red"
       text: "~/terminalcv"
-      color: "blue"
+      color: "yellow"
       after: '\]'
       afterColor: "red"
     extra:
@@ -31,7 +31,7 @@ params:
 
   # promptColor: grey
   # promptSimbols: ":~$"
-  # promptSimbolsColor: grey
+  promptSimbolsColor: green
   # startxLocation: https://example.com
   # useLess: true
   #exitLocation: "about:blank"
@@ -39,16 +39,27 @@ params:
   source: true
   #use a ‎ (blank character) if your first character of the ascii art is a whitespace
   greeting: |
-    ‎ _                      _             _  _______      __
+    ‎
+     ___________________________________________________________________________________________________________
+    |___________________________________________________________________________________________________________|
+
+    /$$$$$$$                      /$$                    /$$$$$                        \+\/+/   /$$     /$$/     
+    | $$__  $$                    |__/                   |__  $$                        \__/   |__/    /__/      
+    | $$  \ $$  /$$$$$$   /$$$$$$  /$$  /$$$$$$$            | $$  /$$$$$$  /$$$$$$$   /$$$$$$$ /$$  /$$$$$$$
+    | $$$$$$$  /$$__  $$ /$$__  $$| $$ /$$_____/            | $$ |____  $$| $$__  $$ /$$_____/| $$ /$$_____/
+    | $$__  $$| $$  \ $$| $$  \__/| $$|  $$$$$$        /$$  | $$  /$$$$$$$| $$  \ $$| $$      | $$| $$      
+    | $$  \ $$| $$  | $$| $$      | $$ \____  $$      | $$  | $$ /$$__  $$| $$  | $$| $$      | $$| $$      
+    | $$$$$$$/|  $$$$$$/| $$      | $$ /$$$$$$$/      |  $$$$$$/|  $$$$$$$| $$  | $$|  $$$$$$$| $$|  $$$$$$$
+    |_______/  \______/ |__/      |__/|_______/        \______/  \_______/|__/  |__/ \_______/|__/ \_______/
+    +===========================================================================================================+
+     _                      _             _  _______      __
     | |                    (_)           | |/ ____\ \    / /
     | |_ ___ _ __ _ __ ___  _ _ __   __ _| | |     \ \  / / 
     | __/ _ \ '__| '_ ` _ \| | '_ \ / _` | | |      \ \/ /  
     | ||  __/ |  | | | | | | | | | | (_| | | |____   \  /   
      \__\___|_|  |_| |_| |_|_|_| |_|\__,_|_|\_____|   \/
 
-    Welcome to my online resume
-
-    Type 'help' for a list of available commands
+    Type 'help' or '?' for a list of available commands
 
   bootsequence: |
     User request detected
@@ -88,83 +99,191 @@ params:
     # settings:
     #   useLess: true
     details:
-      name: "John Doe"
-      profession: "Unknown"
-      location: "Somewhere"
-      email: "foo@someemail.com"
-      homelink: "https://myHomePage.com"
+      name: "Boris Jancic"
+      profession: "DevOps Engineer"
+      location: "Novi Sad Serbia"
+      email: "jancicboris56@gmail.com"
+      homelink: "https://boris.jancic.website/"
       description: |
-        Here you can write something catchy about yourself
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#+============+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+        @@@@@@@@@@@@@@@@@@@@@@@@*==========================*@@@@@@@@@@@@@@@@@@@@@@@@
+        @@@@@@@@@@@@@@@@@@@@*==================================*@@@@@@@@@@@@@@@@@@@@
+        @@@@@@@@@@@@@@@@@+========================================+@@@@@@@@@@@@@@@@@
+        @@@@@@@@@@@@@@%==============================================%@@@@@@@@@@@@@@
+        @@@@@@@@@@@@#==================================================#@@@@@@@@@@@@
+        @@@@@@@@@@%==================+%**%%%#%%%#+=======================%@@@@@@@@@@
+        @@@@@@@@@===================**%%%@@%%%%%%@%%#======================@@@@@@@@@
+        @@@@@@@#==================+%%%@@@@%%%%%@%@@@%%%+====================#@@@@@@@
+        @@@@@@===================+%%%%########%%%%%%%%%%=====================+@@@@@@
+        @@@@@===================*%%**+++++++++++++++**#%%*=====================@@@@@
+        @@@@====================%#++++++=+===+++++++++**#%+=====================@@@@
+        @@@+===================##*++++==========+++++++**##=====================+@@@
+        @@#====================%#++++++========+++++++***#%+=====================#@@
+        @@=====================%#++++++=========++++++*+**#*======================@@
+        @+====================+#*++++++=========++++++*+++##======================+@
+        @====================**#+##**##%#++++++*%%%@%%%#++##*+=====================@
+        %====================*+#++#%%%%*#*+==+#%#*#@%%##++##%*=====================%
+        *====================++*++++++**++++++##*****#**++#@##=====================*
+        ====================+++++++++++++++++**++++++++*++*%%*=====================+
+        =====================++++++===++++++++*+#+++++++++#*#*=====================+
+        ======================++*++++*+++**++###%**+++****##*=====================++
+        *=======================+++##***####*#%%##*##**#*========================++*
+        %=======================*++***%#***###%%%%%*#*##*=======================+++%
+        @=======================+*+++=+*#**=+*###*+*+###+======================++++@
+        @+=======================+***+++++++++***++*###*+======================+++*@
+        @@========================**#*++++*+*++++**####*+=====================++++@@
+        @@#========================**%#++++++++*#%%%%%#*+====================++++#@@
+        @@@+=======================*+*%%#*+++*##%@@%%##*+*+================++++++@@@
+        @@@@======================%*+++*#%@@@%%@%%%####*+***%%*===========+=++++@@@@
+        @@@@@=================%@@@@*+++++***#####*********+%@@@@@%=======++++++@@@@@
+        @@@@@@============#@@%@@@@%*+++++++++***++++*****+%@@@@@@@@@#+==++++++@@@@@@
+        @@@@@@@#=====#%%@@@@@@@@@@@*+++++++++++++++++**+#@@@@@@@@@@@@@@%*+++#@@@@@@@
+        @@@@@@@@@=%@%@%@@@@@@%@@@@@%+++++++++++==+++++#@@@@@@@@@@@@@@@@@@@%@@@@@@@@@
+        @@@@@@@@@@@@@@@@@@@@@%@@@@@@@@#++++++++=++*%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+        Hi, welcome to my little corner of the internet, this is me & my name is Boris.
+        I am a DevOps engineer who specialises in application infrastructure & operational resiliency.
+
+        My interest in computers started from a young age since I was heavily exposed to Video Games 
+        therefore it was inevitable that i became interested in Computer Science.
+
+        Hobbies include working out, fire dancing, video games, hiking & gardening.
+        I like learning new things constantly.
 
   social:
     # settings:
-    #   useLess: true
+    useLess: true
     #   hideName: true
     details:
-      - name: "github"
-        url: "https://github.com"
-      - name: "facebook"
-        url: "https://facebook.com"
-      - name: "myspace"
-        url: "https://myspace.com"
-      - name: "hi5"
-        url: "https://www.hi5.com"
-      - name: "instagram"
-        url: "https://instagram.com"
-      - name: "Another social"
-        url: "https://anothersocial.com"
+      - name: "Linkedin"
+        url: "https://www.linkedin.com/in/boris-jan%C4%8Di%C4%87-266b021a5/"
+      - name: "Github"
+        url: "https://github.com/Boris-Jancic"
+      - name: "Instagram"
+        url: "https://www.instagram.com/boris_fireart/"
+      - name: "Steam"
+        url: "https://steamcommunity.com/id/smederevo/"
 
   work:
     # settings:
     #   useLess: true
     details:
-      - jobTitle: Job With Red Title
-        color: red
-        company: "-"
-        location: somewhere
-        date: August 2010 - Present
-        description: Some description about this red title job
-
-      - jobTitle: Job with purple title
-        color: purple
-        company: "-"
-        location: somewhere elese
-        date: July 2000  - July 2010
-        description: Some description about this purple job
-
-      - jobTitle: Job with default color title
-        company: "-"
-        location: anywhere
-        date: July 2008 - 2010
-        description: Description about this default color job
+    - jobTitle: DevOps Engineer (OTA)
+      company: CodeLogix
+      location: Serbia - Novi Sad
+      date: Jan 2025 - Present
+      color: aqua
+      description: |
+        Building cloud architecture for a mobile and desktop application in the US aimed at simplifying tenant chores.
+        Maintaining application architecture using AWS and Kubernetes.
+        Providing colleagues with necessary services.
+        Maintaining CI/CD pipelines.
+  
+    - jobTitle: DevOps Engineer
+      company: 1Way2Cloud
+      location: Serbia - Novi Sad / Zug - Switzerland
+      date: Jan 2024 - Jan 2025
+      color: CornflowerBlue
+      description: |
+        Migrated on-premises infrastructure to AWS for an investment company.
+        Deployed AWS resources using Terraform and Atlantis.
+        Deployed and maintained a centralized CI/CD pipeline workload.
+        Collaborated directly with product owners and other DevOps teams.
+  
+    - jobTitle: Fullstack Developer
+      company: 1Way2Cloud
+      location: Serbia - Novi Sad
+      date: Aug 2023 - Jan 2024
+      color: CornflowerBlue
+      description: |
+        Developed the entire React + TypeScript frontend.
+        Participated in developing a highly resilient and fast serverless architecture.
+        Successfully developed and hosted the application on AWS using Amplify, API Gateway, Lambda Functions, CloudWatch logs, and DynamoDB (single table design).
+  
+    - jobTitle: DevOps Engineer
+      company: 1Way2Cloud
+      location: Serbia - Novi Sad
+      date: May 2023 - Aug 2023
+      color: CornflowerBlue
+      description: |
+        Developed AWS infrastructure for automating traffic simulations, primarily using AWS Batch.
+        Set up workflows using AWS Batch, DynamoDB, S3, EC2, Lambda, and API Gateway.
+        Implemented CI/CD via AWS CodePipelines.
+  
+    - jobTitle: DevOps Engineer
+      company: arch.cloud
+      location: Serbia - Novi Sad
+      date: Jan 2023 - Aug 2023
+      color: white
+      description: |
+        Worked in a team of 10+ developers on a SaaS application for tracking, testing, and analyzing physical activity.
+        Wrote Infrastructure as Code (IaC) with Pulumi in Python.
+        Migrated on-premises solutions to the cloud using AWS CloudFront, S3, ECS, ECR, RDS, and ALB.
+        Set up multiple environments for testing, develCornflowerBlueopment, and production purposes.
+  
+    - jobTitle: Fullstack Developer
+      company: arch.cloud
+      location: Serbia - Novi Sad
+      date: Oct 2022 - Jan 2023
+      color: white
+      description: |
+        Implemented a company time tracking application independently.
+        Developed a React frontend application and a FastAPI backend.
+        Wrote the AWS infrastructure in Pulumi Python using AWS CloudFront, S3, Lambda, and Route53.
+        Achieved CI/CD through GitLab pipelines.
 
   education:
     details:
-      - courseName: Red Color training
-        color: red
-        date: June 2019 - July 2019
-        description: Descrption about red color trianing
+      - courseName: Informational Software Engineering
+        color: green
+        date: June 2019 - Sept 2022
+        description: Faculty Of Technical Sciences In Novi Sad
 
-      - courseName: Default color training
-        date: Sept 2004 - Jun 2008
-        #description: There is no need for description
+      - courseName: Administrator of Computer Networks
+        color: green
+        date: Sept 2015 - Jun 2019
+        description: Technical High School in Smederevo
 
   skills:
-    settings:
-      useLess: true
     details:
-      - name: Skill 1
-        percentage: 90
-        Description: you can add a description
+      - name: AWS
+        color: orange
+        description: Extensive hands-on experience designing, deploying, and managing scalable, secure, and highly available cloud infrastructure using core AWS services like EC2, S3, RDS, IAM, Lambda, and VPC.
 
-      - name: Skill 2
-        percentage: 30
-        #description: or you can leave it comented
-
-      - name: Skill 3
+      - name: Kubernetes
         color: blue
-        percentage: 50
-        description: Skill names can have colors too
+        description: Skilled in deploying, managing, and troubleshooting containerized applications in Kubernetes clusters, with strong knowledge of Helm, custom controllers, autoscaling, and RBAC.
+
+      - name: Docker
+        color: blue
+        description: Proficient in containerizing applications using Docker, optimizing Dockerfiles, and managing container lifecycles in local development and production environments.
+
+      - name: Terraform
+        color: purple
+        description: Expert in writing and maintaining modular, reusable Terraform code to provision and manage infrastructure across AWS and other cloud platforms, with a focus on scalability and state management.
+
+      - name: CI/CD
+        color: DarkGreen
+        description: Built and maintained robust CI/CD pipelines using tools like GitHub Actions, GitLab CI, and Jenkins to automate testing, integration, and deployment workflows for faster and more reliable releases.
+
+      - name: Bash
+        color: DarkGreen
+        description: Strong scripting skills in Bash for automating repetitive tasks, managing server configurations, and integrating tools across the DevOps toolchain.
+
+      - name: Linux
+        color: DarkTurquoise
+        description: Deep understanding of Linux-based systems, including system administration, process management, networking, and performance tuning in production environments.
+
+      - name: Application Infrastructure
+        color: DimGrey
+        description: 
+          ---
+          Solid grasp of deploying, monitoring, and maintaining complex application
 
   softskills:
     # settings:
@@ -181,68 +300,49 @@ params:
         description: Description
 
   languages:
-    # settings:
+    settings:
     #   useLess: true
     details:
+      - name: Serbian
+        color: Blue
+        percentage: 100
+        description: Native
+
       - name: English
         color: Blue
-        percentage: 50
-        #description:
-
-      - name: Gibberish
         percentage: 100
-        description: pasghettipigglywiggly
+        description: Native
 
-  projects:
-    # settings:
-    #   useLess: true
-    details:
-      - title: Project Red
-        color: red
-        date: since 2019
-        link: https://example.com
-        description: Describing red stuff
-
-      - title: Project Blue
-        color: blue
-        date: since 2016
-        link: https://example.com/blue
-        #description: nothing to describe
-
-      - title: Project Default
-        date: Since 2017
-        link: https://example.com/default
-        #description: not there either
+      - name: German
+        color: Lime 
+        percentage: 25
+        description: A1
 
   certifications:
-    # settings:
-    #   useLess: true
     details:
-      - certName: Example Cert
-        company: Example Certifying Company
-        date: Date of Completion
-        badge: https://www.link.to.badge
-        #description: Lorem Ipsum
+      - certName: AWS Certified Solutions Architect
+        company: Amazon Web Services
+        date: Dec 2023
+        badge: https://www.credly.com/badges/8f744153-681a-4463-b1ad-714a55bb5170/linked_in_profile
 
   misc:
-    # settings:
-    #   useLess: true
-    commandName: newcommand
-    title: "This Section can have a different command name"
+    commandName: games
+    title: "list favorite games"
     titleColor: teal
     content: |
-      Here the title and the content can have different colors
-      The content can be multi
+      Here is a list of my favorite video games in no particular order:
 
-      line
-
-      And spaces       will be respected as well
-      This section will have the default command: misc
-      but you can name it something else with the property
-      commandName: <String>
-      Give it a shot and try and uncomment the line 
-      commandName: newcommand
-      now instead of misc you can execute the newcommand for this section
-      Auto completion will know it too! :D
+      - Elden Ring
+      - Titanfall 2
+      - Max Payne 3
+      - Bulletstorm
+      - Doom Eternal
+      - Devil May Cry 5
+      - Dishonored 2
+      - Frostpunk
+      - Apex Legends
+      - The Finals
+      - Battlefield 4
+      - Half Life
 
     contentColor: orange
